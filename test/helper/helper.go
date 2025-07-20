@@ -97,6 +97,7 @@ var (
 	MongoConnectionURI     = "mongodb://localhost:27017"
 	MongoConnectionTimeout = "5s"
 	MongoPingTimeout       = "5s"
+	GatewayAddr            = fmt.Sprintf("localhost:%d", RPCPort+portOffset)
 )
 
 func init() {
